@@ -34,6 +34,7 @@ data class StudentAndUniversity(
     val university: University? = null
 )
 
+//one to many
 data class UniversityAndStudent(
     @Embedded
     val  university: University,
